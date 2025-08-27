@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Minimal Working Plugin",
+    "version": "1.0.0",
+    "description": "A minimal working example for Zotero 7",
+    "author": "Zotero Developer",
+    "homepage_url": "https://github.com/zotero/zotero",
+    
+    "applications": {
+        "zotero": {
+            "id": "minimal-plugin@example.com",
+            "strict_min_version": "7.0",
+            "strict_max_version": "7.1.*"
+        }
+    },
+    
+    "icons": {
+        "48": "icon.png",
+        "96": "icon@2x.png"
+    }
+}
